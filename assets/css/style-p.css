@@ -128,12 +128,21 @@ input, textarea {
     padding: 12px 18px;
     border: none;
 }
-<<<<<<< HEAD
-#msg {
-    min-height: 250px;
-
-=======
 textarea {
     font-family: Arial, Helvetica, sans-serif;
->>>>>>> 851e24ff3aab4cff1fdd875d3778c04954e42adf
 }
+@media only screen and (max-width: 980px) {
+    .main-body {
+        width: 750px;
+        float: left;
+        margin-left: 7.5%;
+    }
+    .center{
+        width: 85%;
+        float: left;
+        margin-left: 7.5%;
+
+
+
+    }
+  }
