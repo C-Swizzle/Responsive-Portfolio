@@ -131,9 +131,14 @@ input, textarea {
 textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
+.image-class {
+    height: 200px;
+    width: 300px;
+
+}
 @media only screen and (max-width: 980px) {
     .main-body {
-        width: 750px;
+        width: 740px;
         float: left;
         margin-left: 7.5%;
     }
@@ -141,8 +146,72 @@ textarea {
         width: 85%;
         float: left;
         margin-left: 7.5%;
-
-
-
     }
   }
+  @media only screen and (max-width: 768px) {
+    .main-body {
+        width: 92%;
+        margin-left: 4%;
+    }
+    .name {
+        padding: 15px;
+    }
+    .center{
+        width: 92%;
+        margin-left: 4%;
+  }
+  .image-class {
+      width: 40%;
+      height: auto !important;
+
+  }
+  .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+    width: 40%;
+    padding: none !important;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 640px) {
+    .name {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+    .links {
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        background-color: white;
+    }
+    li {
+        float: center;
+    }
+    .center {
+        width: 100%;
+    }
+    .image-class {
+        width: 90%;
+        height: auto !important;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 10px;
+        left: 5%;
+        width: 90%;
+        padding: none !important;
+        text-align: center;
+    }
+    .header {
+        position: static;
+        overflow-x: hidden;
+        
+    }
+    
+} 
